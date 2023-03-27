@@ -1,0 +1,63 @@
+.content__body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 663px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content__all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content__all> h1{
+    font-family: 'Alkatra', cursive;
+    color: white;
+    text-shadow: -2px -2px 5px #ff8400, 2px 2px 5px #ff8400, -2px 2px 5px #ff8400, 2px -2px 5px #ff8400;
+    font-size: 3rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    text-decoration: none;
+    font-family: 'Alkatra', cursive;
+    color: #fff;
+    border: 3px solid #f63702;
+    background-color: #ff8400;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    width: 250px;
+    padding: 1rem;
+    cursor: url(./assets/images/icons8-fortune-cookie-48_low.png), pointer;
+}
+
+.content__phrase{
+    color: #fff;
+    text-shadow: -2px -2px 5px #ff8400, 2px 2px 5px #ff8400, -2px 2px 5px #ff8400, 2px -2px 5px #ff8400;
+    background-color: #f8bb79;
+    border: 2px solid #f63702;
+    border-radius: 0.5rem;    
+    padding: 2rem;
+    width: 500px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
