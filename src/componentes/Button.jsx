@@ -18,7 +18,7 @@ export const Button = () => {
     html.push(iterator.phrase)
   }
 
-  const [phrases, setphrases] = useState()
+  const [phrases, setphrases] = useState("¿QUE SERA?")
 
   const [background, setbackground] = useState(background1)
 
